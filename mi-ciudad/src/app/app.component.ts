@@ -30,4 +30,8 @@ export class AppComponent {
   });
   }
   
+  checkConnection(){
+    // implementar chequea la coneccion de red y si tiene red chequea qla coneccion con el backend
+    // si no tiene red o no tiene coneccion con el backend, muestra toast no tiene coneccion de red
+  }
 }
