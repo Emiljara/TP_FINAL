@@ -4,6 +4,8 @@ import { IonInput, IonText, IonHeader, IonToolbar, IonTitle, IonContent, IonButt
 import { environment } from 'src/app/app.component';
 import { person} from 'ionicons/icons';
 import { addIcons } from 'ionicons';
+import { FormsModule } from '@angular/forms';
+
 
 @Component({
   selector: 'app-home',
@@ -19,3 +21,34 @@ export class HomePage {
     this.router.navigate(['profile']);
   }
 }
+// export class formNegocio {
+//   mostrarFormulario = false; 
+//   datosFormulario = {
+//     nombre: '',
+//     nombre_negocio: '',
+//     correo: '',
+//     telefono: '',
+//     direccion: '',
+//     foto: ''
+//     };
+  
+//     constructor() {}
+  
+//     enviarFormulario() {
+//       console.log('Datos del formulario:', this.datosFormulario);
+//       this.limpiarFormulario();
+//       this.mostrarFormulario = false; 
+//     }
+  
+//     limpiarFormulario() {
+//       this.datosFormulario = {
+//         nombre: '',
+//         nombre_negocio: '',
+//         correo: '',
+//         telefono: '',
+//         direccion: '',
+//         foto: ''
+//       };
+//     }
+//   }
+

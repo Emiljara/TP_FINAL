@@ -8,4 +8,47 @@
     Bienvenidos a la app "Mi Ciudad"
   </div>
   
+    
+    <ion-button (click)="mostrarFormulario = !mostrarFormulario">
+      Cargar Negocio
+    </ion-button>
+  
+<!--     
+    <div *ngIf="mostrarFormulario">
+      <form (ngSubmit)="enviarFormulario()">
+        <ion-item>
+          <ion-label position="floating">Nombre del titular</ion-label>
+          <ion-input [(ngModel)]="datosFormulario.nombre" name="nombre" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Nombre del negocio</ion-label>
+          <ion-input [(ngModel)]="datosFormulario.nombre_negocio" name_negocio="nombre_negocio" required></ion-input>
+        </ion-item>
+  
+        <ion-item>
+          <ion-label position="floating">Correo Electrónico</ion-label>
+          <ion-input [(ngModel)]="datosFormulario.correo" name="correo" type="email" required></ion-input>
+        </ion-item>
+  
+        <ion-item>
+          <ion-label position="floating">Teléfono</ion-label>
+          <ion-input [(ngModel)]="datosFormulario.telefono" name="telefono" type="tel" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Direccion</ion-label>
+          <ion-input [(ngModel)]="datosFormulario.direccion" name="direccion" required></ion-input>
+        </ion-item>
+
+        <ion-item>
+          <ion-label position="floating">Foto</ion-label>
+          <ion-input [(ngModel)]="datosFormulario.foto" name="foto" required ></ion-input>
+        </ion-item>
+  
+        <ion-button expand="full" type="submit">Cargar</ion-button>
+      </form>
+    </div>
+   -->
+  
 </ion-content>
